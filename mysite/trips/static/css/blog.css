@@ -1,0 +1,40 @@
+h1 a {
+  color: #FCA205;
+}
+
+h1{
+  text-align: center;
+}
+body p {
+    font-style:italic;
+}
+
+.post {
+    color: #FCA205;
+    font-family: 'Dancing Script', cursive;
+}
+
+.page-header {
+    background-color: #A89797;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #FCA205;
+}
+
+.blog_name{
+  padding:20, 15;
+}
+.navbar a{
+  color: #FFFFFF;
+}

@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}
+	<title>{{ post.title }} | test blog</title>
+{% endblock %}
+
+{% block content %}
+	<div class="post">
+		<h2><a href="#">{{ post.title }}</a></h2>
+		<p>{{ post.created_date }}</p>
+		<p>{{ post.text }}</p>
+	</div>
+	{% if post.img %}
+		<div class="img">
+	    	<img src='\mysite\media\img\._39627.jpg'>
+		</div>
+	{% endif %}
+{% endblock %}
